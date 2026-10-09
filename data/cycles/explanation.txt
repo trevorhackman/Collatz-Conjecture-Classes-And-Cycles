@@ -1,0 +1,50 @@
+What this proves
+----------------
+The Collatz map sends an even integer to n/2 and an odd integer to 3n+1. On odd integers the accelerated step is
+(3x+1)/2^k, where k >= 1 is the exact power of 2 dividing 3x+1, so the result is odd again.
+
+A cycle of length n is n accelerated steps that return to the same odd integer. Length counts those steps, not the raw
+Collatz steps. The cycle 1 -> 4 -> 2 -> 1 has length 1: (3*1+1)/2^2 = 1.
+
+For each length from 1 through 20, the only positive integer solution is that known cycle. No odd integer x > 1 lies on
+an accelerated cycle of length at most 20. This does not prove the Collatz conjecture. A longer cycle, or a trajectory
+that grows forever, is still possible.
+
+How the length-1 case is solved
+-------------------------------
+(3x+1)/2^k = x rearranges to x = 1/(2^k - 3). k = 1 gives x = -1. k = 2 gives x = 1. k > 2 gives a positive fraction
+smaller than 1. So the only positive integer solution is x = 1, k = 2.
+
+How a longer length is ruled out
+---------------------------------
+Suppose a cycle contains an odd integer greater than 1, and let x be its least odd member.
+
+The first exponent is 1. If it were 2 or more, (3x+1)/2^k would be strictly smaller than x.
+
+Every later exponent is bounded. After j accelerated steps that each divided by at least 2, the current odd term is at
+most (3/2)^j (x+1) - 1. The next term has to stay at least x, and x >= 3, so the next exponent satisfies
+
+    k < j*(log2(3) - 1) + 2.
+
+The search checks that as the integer comparison 2^{k+j-2} < 3^j, which does not round log2(3). The per-step maxima grow
+by about 0.585 each step, not by log2(3) itself, because each earlier step already spent a factor of 1/2.
+
+The exponents k1, ..., kn also have to satisfy 2^K > 3^n, where K is their sum. Otherwise the closed form
+
+    x = N / (2^K - 3^n)
+
+has a denominator that is not positive. N is the sum of 3^{n-1-i} * 2^{k1+...+ki}, with the i = 0 term equal to 3^{n-1}.
+Equivalently, K >= ceil(n log2(3)). A prefix is rejected as soon as even the largest legal later exponents cannot reach
+that total. Two tuples with the same sum are not the same case: the order changes N.
+
+Every tuple inside those bounds is solved exactly. None produces an integer x > 1 that is the least odd member of a
+cycle. The tuple where every exponent equals 2 gives x = 1. That is the known cycle repeated, not a new one.
+
+What the other files are
+------------------------
+summary.txt opens with the machine, time, memory, and file size of the run, then one line per length: no x > 1,
+and how many branches were examined. length-01.txt through length-16.txt
+are the case transcripts. A rejected line rules out that prefix and every continuation. The line x<=C < L means
+staying at or above the minimum forces x <= C, and C is below the lower bound L. Lengths 17 through 20 use the
+same search. Only their branch counts are stored. A line-by-line transcript of length 20 would be billions of
+characters, and re-running the search takes about half a minute.

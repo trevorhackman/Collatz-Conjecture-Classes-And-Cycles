@@ -1,0 +1,125 @@
+Modulus 2^6 = 64
+Proved 56/64 = 87.5% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 8
+
+No class settled at this modulus.
+
+OPEN 7 mod 64
+n = 64t + 7
+  3n+1  192t+22
+  /2  96t+11
+  3n+1  288t+34
+  /2  144t+17
+  3n+1  432t+52
+  /2  216t+26
+  /2  108t+13
+  3n+1  324t+40
+  /2  162t+20
+  /2  81t+10
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+10 and is not strictly below n for every n > 1.
+
+OPEN 15 mod 64
+n = 64t + 15
+  3n+1  192t+46
+  /2  96t+23
+  3n+1  288t+70
+  /2  144t+35
+  3n+1  432t+106
+  /2  216t+53
+  3n+1  648t+160
+  /2  324t+80
+  /2  162t+40
+  /2  81t+20
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+20 and is not strictly below n for every n > 1.
+
+OPEN 27 mod 64
+n = 64t + 27
+  3n+1  192t+82
+  /2  96t+41
+  3n+1  288t+124
+  /2  144t+62
+  /2  72t+31
+  3n+1  216t+94
+  /2  108t+47
+  3n+1  324t+142
+  /2  162t+71
+  3n+1  486t+214
+  /2  243t+107
+Leading coefficient 243 is odd, so the next parity depends on t. The shared prefix ends at 243t+107 and is not strictly below n for every n > 1.
+
+OPEN 31 mod 64
+n = 64t + 31
+  3n+1  192t+94
+  /2  96t+47
+  3n+1  288t+142
+  /2  144t+71
+  3n+1  432t+214
+  /2  216t+107
+  3n+1  648t+322
+  /2  324t+161
+  3n+1  972t+484
+  /2  486t+242
+  /2  243t+121
+Leading coefficient 243 is odd, so the next parity depends on t. The shared prefix ends at 243t+121 and is not strictly below n for every n > 1.
+
+OPEN 39 mod 64
+n = 64t + 39
+  3n+1  192t+118
+  /2  96t+59
+  3n+1  288t+178
+  /2  144t+89
+  3n+1  432t+268
+  /2  216t+134
+  /2  108t+67
+  3n+1  324t+202
+  /2  162t+101
+  3n+1  486t+304
+  /2  243t+152
+Leading coefficient 243 is odd, so the next parity depends on t. The shared prefix ends at 243t+152 and is not strictly below n for every n > 1.
+
+OPEN 47 mod 64
+n = 64t + 47
+  3n+1  192t+142
+  /2  96t+71
+  3n+1  288t+214
+  /2  144t+107
+  3n+1  432t+322
+  /2  216t+161
+  3n+1  648t+484
+  /2  324t+242
+  /2  162t+121
+  3n+1  486t+364
+  /2  243t+182
+Leading coefficient 243 is odd, so the next parity depends on t. The shared prefix ends at 243t+182 and is not strictly below n for every n > 1.
+
+OPEN 59 mod 64
+n = 64t + 59
+  3n+1  192t+178
+  /2  96t+89
+  3n+1  288t+268
+  /2  144t+134
+  /2  72t+67
+  3n+1  216t+202
+  /2  108t+101
+  3n+1  324t+304
+  /2  162t+152
+  /2  81t+76
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+76 and is not strictly below n for every n > 1.
+
+OPEN 63 mod 64
+n = 64t + 63
+  3n+1  192t+190
+  /2  96t+95
+  3n+1  288t+286
+  /2  144t+143
+  3n+1  432t+430
+  /2  216t+215
+  3n+1  648t+646
+  /2  324t+323
+  3n+1  972t+970
+  /2  486t+485
+  3n+1  1458t+1456
+  /2  729t+728
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+728 and is not strictly below n for every n > 1.
+

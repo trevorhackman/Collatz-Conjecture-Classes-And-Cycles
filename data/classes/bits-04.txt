@@ -1,0 +1,49 @@
+Modulus 2^4 = 16
+Proved 13/16 = 81.25% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 3
+
+SETTLED 3 mod 16
+n = 16t + 3
+  3n+1  48t+10
+  /2  24t+5
+  3n+1  72t+16
+  /2  36t+8
+  /2  18t+4
+  /2  9t+2
+Every n = 16t + 3 > 1 has t >= 0. 9t+2 < n for all such t because (16 - 9) * 0 > (2 - 3), that is 0 > -1.
+
+OPEN 7 mod 16
+n = 16t + 7
+  3n+1  48t+22
+  /2  24t+11
+  3n+1  72t+34
+  /2  36t+17
+  3n+1  108t+52
+  /2  54t+26
+  /2  27t+13
+Leading coefficient 27 is odd, so the next parity depends on t. The shared prefix ends at 27t+13 and is not strictly below n for every n > 1.
+
+OPEN 11 mod 16
+n = 16t + 11
+  3n+1  48t+34
+  /2  24t+17
+  3n+1  72t+52
+  /2  36t+26
+  /2  18t+13
+  3n+1  54t+40
+  /2  27t+20
+Leading coefficient 27 is odd, so the next parity depends on t. The shared prefix ends at 27t+20 and is not strictly below n for every n > 1.
+
+OPEN 15 mod 16
+n = 16t + 15
+  3n+1  48t+46
+  /2  24t+23
+  3n+1  72t+70
+  /2  36t+35
+  3n+1  108t+106
+  /2  54t+53
+  3n+1  162t+160
+  /2  81t+80
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+80 and is not strictly below n for every n > 1.
+

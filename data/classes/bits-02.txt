@@ -1,0 +1,20 @@
+Modulus 2^2 = 4
+Proved 3/4 = 75% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 1
+
+SETTLED 1 mod 4
+n = 4t + 1
+  3n+1  12t+4
+  /2  6t+2
+  /2  /usa
+Every n = 4t + 1 > 1 has t >= 1. 3t+1 < n for all such t because (4 - 3) * 1 > (1 - 1), that is 1 > 0.
+
+OPEN 3 mod 4
+n = 4t + 3
+  3n+1  12t+10
+  /2  6t+5
+  3n+1  18t+16
+  /2  9t+8
+Leading coefficient 9 is odd, so the next parity depends on t. The shared prefix ends at 9t+8 and is not strictly below n for every n > 1.
+

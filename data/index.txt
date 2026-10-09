@@ -1,0 +1,19 @@
+Proof log
+
+crashes/
+  Stack traces from an uncaught UI failure, one file per crash.
+
+cycles/explanation.txt
+  What the cycle search proves, and why the exponent bounds make it finite.
+classes/explanation.md
+  What the residue-class argument proves, and why a drop for every n > 1 implies the conjecture.
+
+cycles/length-01.txt through cycles/length-16.txt
+  Each file rules out an accelerated cycle of that length for every odd x > 1.
+  Length 1 has one positive integer solution: x = 1 with exponent k = 2.
+  Lengths 17 through 20 are searched the same way. Their branch counts are in cycles/summary.txt. A line-by-line transcript is not written; length 20 is billions of characters.
+
+classes/summary.txt
+  Proved share of positive integers at each modulus.
+classes/bits-01.txt through classes/bits-16.txt
+  The classes examined at that modulus, with the forced steps and the inequality that shows descent.

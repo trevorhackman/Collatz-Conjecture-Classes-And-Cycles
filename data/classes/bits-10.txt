@@ -1,0 +1,1633 @@
+Modulus 2^10 = 1024
+Proved 960/1024 = 93.75% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 64
+
+SETTLED 287 mod 1024
+n = 1024t + 287
+  3n+1  3072t+862
+  /2  1536t+431
+  3n+1  4608t+1294
+  /2  2304t+647
+  3n+1  6912t+1942
+  /2  3456t+971
+  3n+1  10368t+2914
+  /2  5184t+1457
+  3n+1  15552t+4372
+  /2  7776t+2186
+  /2  3888t+1093
+  3n+1  11664t+3280
+  /2  5832t+1640
+  /2  2916t+820
+  /2  1458t+410
+  /2  729t+205
+Every n = 1024t + 287 > 1 has t >= 0. 729t+205 < n for all such t because (1024 - 729) * 0 > (205 - 287), that is 0 > -82.
+
+SETTLED 347 mod 1024
+n = 1024t + 347
+  3n+1  3072t+1042
+  /2  1536t+521
+  3n+1  4608t+1564
+  /2  2304t+782
+  /2  1152t+391
+  3n+1  3456t+1174
+  /2  1728t+587
+  3n+1  5184t+1762
+  /2  2592t+881
+  3n+1  7776t+2644
+  /2  3888t+1322
+  /2  1944t+661
+  3n+1  5832t+1984
+  /2  2916t+992
+  /2  1458t+496
+  /2  729t+248
+Every n = 1024t + 347 > 1 has t >= 0. 729t+248 < n for all such t because (1024 - 729) * 0 > (248 - 347), that is 0 > -99.
+
+SETTLED 367 mod 1024
+n = 1024t + 367
+  3n+1  3072t+1102
+  /2  1536t+551
+  3n+1  4608t+1654
+  /2  2304t+827
+  3n+1  6912t+2482
+  /2  3456t+1241
+  3n+1  10368t+3724
+  /2  5184t+1862
+  /2  2592t+931
+  3n+1  7776t+2794
+  /2  3888t+1397
+  3n+1  11664t+4192
+  /2  5832t+2096
+  /2  2916t+1048
+  /2  1458t+524
+  /2  729t+262
+Every n = 1024t + 367 > 1 has t >= 0. 729t+262 < n for all such t because (1024 - 729) * 0 > (262 - 367), that is 0 > -105.
+
+SETTLED 423 mod 1024
+n = 1024t + 423
+  3n+1  3072t+1270
+  /2  1536t+635
+  3n+1  4608t+1906
+  /2  2304t+953
+  3n+1  6912t+2860
+  /2  3456t+1430
+  /2  1728t+715
+  3n+1  5184t+2146
+  /2  2592t+1073
+  3n+1  7776t+3220
+  /2  3888t+1610
+  /2  1944t+805
+  3n+1  5832t+2416
+  /2  2916t+1208
+  /2  1458t+604
+  /2  729t+302
+Every n = 1024t + 423 > 1 has t >= 0. 729t+302 < n for all such t because (1024 - 729) * 0 > (302 - 423), that is 0 > -121.
+
+SETTLED 507 mod 1024
+n = 1024t + 507
+  3n+1  3072t+1522
+  /2  1536t+761
+  3n+1  4608t+2284
+  /2  2304t+1142
+  /2  1152t+571
+  3n+1  3456t+1714
+  /2  1728t+857
+  3n+1  5184t+2572
+  /2  2592t+1286
+  /2  1296t+643
+  3n+1  3888t+1930
+  /2  1944t+965
+  3n+1  5832t+2896
+  /2  2916t+1448
+  /2  1458t+724
+  /2  729t+362
+Every n = 1024t + 507 > 1 has t >= 0. 729t+362 < n for all such t because (1024 - 729) * 0 > (362 - 507), that is 0 > -145.
+
+SETTLED 575 mod 1024
+n = 1024t + 575
+  3n+1  3072t+1726
+  /2  1536t+863
+  3n+1  4608t+2590
+  /2  2304t+1295
+  3n+1  6912t+3886
+  /2  3456t+1943
+  3n+1  10368t+5830
+  /2  5184t+2915
+  3n+1  15552t+8746
+  /2  7776t+4373
+  3n+1  23328t+13120
+  /2  11664t+6560
+  /2  5832t+3280
+  /2  2916t+1640
+  /2  1458t+820
+  /2  729t+410
+Every n = 1024t + 575 > 1 has t >= 0. 729t+410 < n for all such t because (1024 - 729) * 0 > (410 - 575), that is 0 > -165.
+
+SETTLED 583 mod 1024
+n = 1024t + 583
+  3n+1  3072t+1750
+  /2  1536t+875
+  3n+1  4608t+2626
+  /2  2304t+1313
+  3n+1  6912t+3940
+  /2  3456t+1970
+  /2  1728t+985
+  3n+1  5184t+2956
+  /2  2592t+1478
+  /2  1296t+739
+  3n+1  3888t+2218
+  /2  1944t+1109
+  3n+1  5832t+3328
+  /2  2916t+1664
+  /2  1458t+832
+  /2  729t+416
+Every n = 1024t + 583 > 1 has t >= 0. 729t+416 < n for all such t because (1024 - 729) * 0 > (416 - 583), that is 0 > -167.
+
+SETTLED 735 mod 1024
+n = 1024t + 735
+  3n+1  3072t+2206
+  /2  1536t+1103
+  3n+1  4608t+3310
+  /2  2304t+1655
+  3n+1  6912t+4966
+  /2  3456t+2483
+  3n+1  10368t+7450
+  /2  5184t+3725
+  3n+1  15552t+11176
+  /2  7776t+5588
+  /2  3888t+2794
+  /2  1944t+1397
+  3n+1  5832t+4192
+  /2  2916t+2096
+  /2  1458t+1048
+  /2  729t+524
+Every n = 1024t + 735 > 1 has t >= 0. 729t+524 < n for all such t because (1024 - 729) * 0 > (524 - 735), that is 0 > -211.
+
+SETTLED 815 mod 1024
+n = 1024t + 815
+  3n+1  3072t+2446
+  /2  1536t+1223
+  3n+1  4608t+3670
+  /2  2304t+1835
+  3n+1  6912t+5506
+  /2  3456t+2753
+  3n+1  10368t+8260
+  /2  5184t+4130
+  /2  2592t+2065
+  3n+1  7776t+6196
+  /2  3888t+3098
+  /2  1944t+1549
+  3n+1  5832t+4648
+  /2  2916t+2324
+  /2  1458t+1162
+  /2  729t+581
+Every n = 1024t + 815 > 1 has t >= 0. 729t+581 < n for all such t because (1024 - 729) * 0 > (581 - 815), that is 0 > -234.
+
+SETTLED 923 mod 1024
+n = 1024t + 923
+  3n+1  3072t+2770
+  /2  1536t+1385
+  3n+1  4608t+4156
+  /2  2304t+2078
+  /2  1152t+1039
+  3n+1  3456t+3118
+  /2  1728t+1559
+  3n+1  5184t+4678
+  /2  2592t+2339
+  3n+1  7776t+7018
+  /2  3888t+3509
+  3n+1  11664t+10528
+  /2  5832t+5264
+  /2  2916t+2632
+  /2  1458t+1316
+  /2  729t+658
+Every n = 1024t + 923 > 1 has t >= 0. 729t+658 < n for all such t because (1024 - 729) * 0 > (658 - 923), that is 0 > -265.
+
+SETTLED 975 mod 1024
+n = 1024t + 975
+  3n+1  3072t+2926
+  /2  1536t+1463
+  3n+1  4608t+4390
+  /2  2304t+2195
+  3n+1  6912t+6586
+  /2  3456t+3293
+  3n+1  10368t+9880
+  /2  5184t+4940
+  /2  2592t+2470
+  /2  1296t+1235
+  3n+1  3888t+3706
+  /2  1944t+1853
+  3n+1  5832t+5560
+  /2  2916t+2780
+  /2  1458t+1390
+  /2  729t+695
+Every n = 1024t + 975 > 1 has t >= 0. 729t+695 < n for all such t because (1024 - 729) * 0 > (695 - 975), that is 0 > -280.
+
+SETTLED 999 mod 1024
+n = 1024t + 999
+  3n+1  3072t+2998
+  /2  1536t+1499
+  3n+1  4608t+4498
+  /2  2304t+2249
+  3n+1  6912t+6748
+  /2  3456t+3374
+  /2  1728t+1687
+  3n+1  5184t+5062
+  /2  2592t+2531
+  3n+1  7776t+7594
+  /2  3888t+3797
+  3n+1  11664t+11392
+  /2  5832t+5696
+  /2  2916t+2848
+  /2  1458t+1424
+  /2  729t+712
+Every n = 1024t + 999 > 1 has t >= 0. 729t+712 < n for all such t because (1024 - 729) * 0 > (712 - 999), that is 0 > -287.
+
+OPEN 27 mod 1024
+n = 1024t + 27
+  3n+1  3072t+82
+  /2  1536t+41
+  3n+1  4608t+124
+  /2  2304t+62
+  /2  1152t+31
+  3n+1  3456t+94
+  /2  1728t+47
+  3n+1  5184t+142
+  /2  2592t+71
+  3n+1  7776t+214
+  /2  3888t+107
+  3n+1  11664t+322
+  /2  5832t+161
+  3n+1  17496t+484
+  /2  8748t+242
+  /2  4374t+121
+  3n+1  13122t+364
+  /2  6561t+182
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+182 and is not strictly below n for every n > 1.
+
+OPEN 31 mod 1024
+n = 1024t + 31
+  3n+1  3072t+94
+  /2  1536t+47
+  3n+1  4608t+142
+  /2  2304t+71
+  3n+1  6912t+214
+  /2  3456t+107
+  3n+1  10368t+322
+  /2  5184t+161
+  3n+1  15552t+484
+  /2  7776t+242
+  /2  3888t+121
+  3n+1  11664t+364
+  /2  5832t+182
+  /2  2916t+91
+  3n+1  8748t+274
+  /2  4374t+137
+  3n+1  13122t+412
+  /2  6561t+206
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+206 and is not strictly below n for every n > 1.
+
+OPEN 47 mod 1024
+n = 1024t + 47
+  3n+1  3072t+142
+  /2  1536t+71
+  3n+1  4608t+214
+  /2  2304t+107
+  3n+1  6912t+322
+  /2  3456t+161
+  3n+1  10368t+484
+  /2  5184t+242
+  /2  2592t+121
+  3n+1  7776t+364
+  /2  3888t+182
+  /2  1944t+91
+  3n+1  5832t+274
+  /2  2916t+137
+  3n+1  8748t+412
+  /2  4374t+206
+  /2  2187t+103
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+103 and is not strictly below n for every n > 1.
+
+OPEN 63 mod 1024
+n = 1024t + 63
+  3n+1  3072t+190
+  /2  1536t+95
+  3n+1  4608t+286
+  /2  2304t+143
+  3n+1  6912t+430
+  /2  3456t+215
+  3n+1  10368t+646
+  /2  5184t+323
+  3n+1  15552t+970
+  /2  7776t+485
+  3n+1  23328t+1456
+  /2  11664t+728
+  /2  5832t+364
+  /2  2916t+182
+  /2  1458t+91
+  3n+1  4374t+274
+  /2  2187t+137
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+137 and is not strictly below n for every n > 1.
+
+OPEN 71 mod 1024
+n = 1024t + 71
+  3n+1  3072t+214
+  /2  1536t+107
+  3n+1  4608t+322
+  /2  2304t+161
+  3n+1  6912t+484
+  /2  3456t+242
+  /2  1728t+121
+  3n+1  5184t+364
+  /2  2592t+182
+  /2  1296t+91
+  3n+1  3888t+274
+  /2  1944t+137
+  3n+1  5832t+412
+  /2  2916t+206
+  /2  1458t+103
+  3n+1  4374t+310
+  /2  2187t+155
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+155 and is not strictly below n for every n > 1.
+
+OPEN 91 mod 1024
+n = 1024t + 91
+  3n+1  3072t+274
+  /2  1536t+137
+  3n+1  4608t+412
+  /2  2304t+206
+  /2  1152t+103
+  3n+1  3456t+310
+  /2  1728t+155
+  3n+1  5184t+466
+  /2  2592t+233
+  3n+1  7776t+700
+  /2  3888t+350
+  /2  1944t+175
+  3n+1  5832t+526
+  /2  2916t+263
+  3n+1  8748t+790
+  /2  4374t+395
+  3n+1  13122t+1186
+  /2  6561t+593
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+593 and is not strictly below n for every n > 1.
+
+OPEN 103 mod 1024
+n = 1024t + 103
+  3n+1  3072t+310
+  /2  1536t+155
+  3n+1  4608t+466
+  /2  2304t+233
+  3n+1  6912t+700
+  /2  3456t+350
+  /2  1728t+175
+  3n+1  5184t+526
+  /2  2592t+263
+  3n+1  7776t+790
+  /2  3888t+395
+  3n+1  11664t+1186
+  /2  5832t+593
+  3n+1  17496t+1780
+  /2  8748t+890
+  /2  4374t+445
+  3n+1  13122t+1336
+  /2  6561t+668
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+668 and is not strictly below n for every n > 1.
+
+OPEN 111 mod 1024
+n = 1024t + 111
+  3n+1  3072t+334
+  /2  1536t+167
+  3n+1  4608t+502
+  /2  2304t+251
+  3n+1  6912t+754
+  /2  3456t+377
+  3n+1  10368t+1132
+  /2  5184t+566
+  /2  2592t+283
+  3n+1  7776t+850
+  /2  3888t+425
+  3n+1  11664t+1276
+  /2  5832t+638
+  /2  2916t+319
+  3n+1  8748t+958
+  /2  4374t+479
+  3n+1  13122t+1438
+  /2  6561t+719
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+719 and is not strictly below n for every n > 1.
+
+OPEN 127 mod 1024
+n = 1024t + 127
+  3n+1  3072t+382
+  /2  1536t+191
+  3n+1  4608t+574
+  /2  2304t+287
+  3n+1  6912t+862
+  /2  3456t+431
+  3n+1  10368t+1294
+  /2  5184t+647
+  3n+1  15552t+1942
+  /2  7776t+971
+  3n+1  23328t+2914
+  /2  11664t+1457
+  3n+1  34992t+4372
+  /2  17496t+2186
+  /2  8748t+1093
+  3n+1  26244t+3280
+  /2  13122t+1640
+  /2  6561t+820
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+820 and is not strictly below n for every n > 1.
+
+OPEN 155 mod 1024
+n = 1024t + 155
+  3n+1  3072t+466
+  /2  1536t+233
+  3n+1  4608t+700
+  /2  2304t+350
+  /2  1152t+175
+  3n+1  3456t+526
+  /2  1728t+263
+  3n+1  5184t+790
+  /2  2592t+395
+  3n+1  7776t+1186
+  /2  3888t+593
+  3n+1  11664t+1780
+  /2  5832t+890
+  /2  2916t+445
+  3n+1  8748t+1336
+  /2  4374t+668
+  /2  2187t+334
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+334 and is not strictly below n for every n > 1.
+
+OPEN 159 mod 1024
+n = 1024t + 159
+  3n+1  3072t+478
+  /2  1536t+239
+  3n+1  4608t+718
+  /2  2304t+359
+  3n+1  6912t+1078
+  /2  3456t+539
+  3n+1  10368t+1618
+  /2  5184t+809
+  3n+1  15552t+2428
+  /2  7776t+1214
+  /2  3888t+607
+  3n+1  11664t+1822
+  /2  5832t+911
+  3n+1  17496t+2734
+  /2  8748t+1367
+  3n+1  26244t+4102
+  /2  13122t+2051
+  3n+1  39366t+6154
+  /2  19683t+3077
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+3077 and is not strictly below n for every n > 1.
+
+OPEN 167 mod 1024
+n = 1024t + 167
+  3n+1  3072t+502
+  /2  1536t+251
+  3n+1  4608t+754
+  /2  2304t+377
+  3n+1  6912t+1132
+  /2  3456t+566
+  /2  1728t+283
+  3n+1  5184t+850
+  /2  2592t+425
+  3n+1  7776t+1276
+  /2  3888t+638
+  /2  1944t+319
+  3n+1  5832t+958
+  /2  2916t+479
+  3n+1  8748t+1438
+  /2  4374t+719
+  3n+1  13122t+2158
+  /2  6561t+1079
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+1079 and is not strictly below n for every n > 1.
+
+OPEN 191 mod 1024
+n = 1024t + 191
+  3n+1  3072t+574
+  /2  1536t+287
+  3n+1  4608t+862
+  /2  2304t+431
+  3n+1  6912t+1294
+  /2  3456t+647
+  3n+1  10368t+1942
+  /2  5184t+971
+  3n+1  15552t+2914
+  /2  7776t+1457
+  3n+1  23328t+4372
+  /2  11664t+2186
+  /2  5832t+1093
+  3n+1  17496t+3280
+  /2  8748t+1640
+  /2  4374t+820
+  /2  2187t+410
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+410 and is not strictly below n for every n > 1.
+
+OPEN 207 mod 1024
+n = 1024t + 207
+  3n+1  3072t+622
+  /2  1536t+311
+  3n+1  4608t+934
+  /2  2304t+467
+  3n+1  6912t+1402
+  /2  3456t+701
+  3n+1  10368t+2104
+  /2  5184t+1052
+  /2  2592t+526
+  /2  1296t+263
+  3n+1  3888t+790
+  /2  1944t+395
+  3n+1  5832t+1186
+  /2  2916t+593
+  3n+1  8748t+1780
+  /2  4374t+890
+  /2  2187t+445
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+445 and is not strictly below n for every n > 1.
+
+OPEN 223 mod 1024
+n = 1024t + 223
+  3n+1  3072t+670
+  /2  1536t+335
+  3n+1  4608t+1006
+  /2  2304t+503
+  3n+1  6912t+1510
+  /2  3456t+755
+  3n+1  10368t+2266
+  /2  5184t+1133
+  3n+1  15552t+3400
+  /2  7776t+1700
+  /2  3888t+850
+  /2  1944t+425
+  3n+1  5832t+1276
+  /2  2916t+638
+  /2  1458t+319
+  3n+1  4374t+958
+  /2  2187t+479
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+479 and is not strictly below n for every n > 1.
+
+OPEN 231 mod 1024
+n = 1024t + 231
+  3n+1  3072t+694
+  /2  1536t+347
+  3n+1  4608t+1042
+  /2  2304t+521
+  3n+1  6912t+1564
+  /2  3456t+782
+  /2  1728t+391
+  3n+1  5184t+1174
+  /2  2592t+587
+  3n+1  7776t+1762
+  /2  3888t+881
+  3n+1  11664t+2644
+  /2  5832t+1322
+  /2  2916t+661
+  3n+1  8748t+1984
+  /2  4374t+992
+  /2  2187t+496
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+496 and is not strictly below n for every n > 1.
+
+OPEN 239 mod 1024
+n = 1024t + 239
+  3n+1  3072t+718
+  /2  1536t+359
+  3n+1  4608t+1078
+  /2  2304t+539
+  3n+1  6912t+1618
+  /2  3456t+809
+  3n+1  10368t+2428
+  /2  5184t+1214
+  /2  2592t+607
+  3n+1  7776t+1822
+  /2  3888t+911
+  3n+1  11664t+2734
+  /2  5832t+1367
+  3n+1  17496t+4102
+  /2  8748t+2051
+  3n+1  26244t+6154
+  /2  13122t+3077
+  3n+1  39366t+9232
+  /2  19683t+4616
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+4616 and is not strictly below n for every n > 1.
+
+OPEN 251 mod 1024
+n = 1024t + 251
+  3n+1  3072t+754
+  /2  1536t+377
+  3n+1  4608t+1132
+  /2  2304t+566
+  /2  1152t+283
+  3n+1  3456t+850
+  /2  1728t+425
+  3n+1  5184t+1276
+  /2  2592t+638
+  /2  1296t+319
+  3n+1  3888t+958
+  /2  1944t+479
+  3n+1  5832t+1438
+  /2  2916t+719
+  3n+1  8748t+2158
+  /2  4374t+1079
+  3n+1  13122t+3238
+  /2  6561t+1619
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+1619 and is not strictly below n for every n > 1.
+
+OPEN 255 mod 1024
+n = 1024t + 255
+  3n+1  3072t+766
+  /2  1536t+383
+  3n+1  4608t+1150
+  /2  2304t+575
+  3n+1  6912t+1726
+  /2  3456t+863
+  3n+1  10368t+2590
+  /2  5184t+1295
+  3n+1  15552t+3886
+  /2  7776t+1943
+  3n+1  23328t+5830
+  /2  11664t+2915
+  3n+1  34992t+8746
+  /2  17496t+4373
+  3n+1  52488t+13120
+  /2  26244t+6560
+  /2  13122t+3280
+  /2  6561t+1640
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+1640 and is not strictly below n for every n > 1.
+
+OPEN 283 mod 1024
+n = 1024t + 283
+  3n+1  3072t+850
+  /2  1536t+425
+  3n+1  4608t+1276
+  /2  2304t+638
+  /2  1152t+319
+  3n+1  3456t+958
+  /2  1728t+479
+  3n+1  5184t+1438
+  /2  2592t+719
+  3n+1  7776t+2158
+  /2  3888t+1079
+  3n+1  11664t+3238
+  /2  5832t+1619
+  3n+1  17496t+4858
+  /2  8748t+2429
+  3n+1  26244t+7288
+  /2  13122t+3644
+  /2  6561t+1822
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+1822 and is not strictly below n for every n > 1.
+
+OPEN 303 mod 1024
+n = 1024t + 303
+  3n+1  3072t+910
+  /2  1536t+455
+  3n+1  4608t+1366
+  /2  2304t+683
+  3n+1  6912t+2050
+  /2  3456t+1025
+  3n+1  10368t+3076
+  /2  5184t+1538
+  /2  2592t+769
+  3n+1  7776t+2308
+  /2  3888t+1154
+  /2  1944t+577
+  3n+1  5832t+1732
+  /2  2916t+866
+  /2  1458t+433
+  3n+1  4374t+1300
+  /2  2187t+650
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+650 and is not strictly below n for every n > 1.
+
+OPEN 319 mod 1024
+n = 1024t + 319
+  3n+1  3072t+958
+  /2  1536t+479
+  3n+1  4608t+1438
+  /2  2304t+719
+  3n+1  6912t+2158
+  /2  3456t+1079
+  3n+1  10368t+3238
+  /2  5184t+1619
+  3n+1  15552t+4858
+  /2  7776t+2429
+  3n+1  23328t+7288
+  /2  11664t+3644
+  /2  5832t+1822
+  /2  2916t+911
+  3n+1  8748t+2734
+  /2  4374t+1367
+  3n+1  13122t+4102
+  /2  6561t+2051
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+2051 and is not strictly below n for every n > 1.
+
+OPEN 327 mod 1024
+n = 1024t + 327
+  3n+1  3072t+982
+  /2  1536t+491
+  3n+1  4608t+1474
+  /2  2304t+737
+  3n+1  6912t+2212
+  /2  3456t+1106
+  /2  1728t+553
+  3n+1  5184t+1660
+  /2  2592t+830
+  /2  1296t+415
+  3n+1  3888t+1246
+  /2  1944t+623
+  3n+1  5832t+1870
+  /2  2916t+935
+  3n+1  8748t+2806
+  /2  4374t+1403
+  3n+1  13122t+4210
+  /2  6561t+2105
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+2105 and is not strictly below n for every n > 1.
+
+OPEN 359 mod 1024
+n = 1024t + 359
+  3n+1  3072t+1078
+  /2  1536t+539
+  3n+1  4608t+1618
+  /2  2304t+809
+  3n+1  6912t+2428
+  /2  3456t+1214
+  /2  1728t+607
+  3n+1  5184t+1822
+  /2  2592t+911
+  3n+1  7776t+2734
+  /2  3888t+1367
+  3n+1  11664t+4102
+  /2  5832t+2051
+  3n+1  17496t+6154
+  /2  8748t+3077
+  3n+1  26244t+9232
+  /2  13122t+4616
+  /2  6561t+2308
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+2308 and is not strictly below n for every n > 1.
+
+OPEN 383 mod 1024
+n = 1024t + 383
+  3n+1  3072t+1150
+  /2  1536t+575
+  3n+1  4608t+1726
+  /2  2304t+863
+  3n+1  6912t+2590
+  /2  3456t+1295
+  3n+1  10368t+3886
+  /2  5184t+1943
+  3n+1  15552t+5830
+  /2  7776t+2915
+  3n+1  23328t+8746
+  /2  11664t+4373
+  3n+1  34992t+13120
+  /2  17496t+6560
+  /2  8748t+3280
+  /2  4374t+1640
+  /2  2187t+820
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+820 and is not strictly below n for every n > 1.
+
+OPEN 411 mod 1024
+n = 1024t + 411
+  3n+1  3072t+1234
+  /2  1536t+617
+  3n+1  4608t+1852
+  /2  2304t+926
+  /2  1152t+463
+  3n+1  3456t+1390
+  /2  1728t+695
+  3n+1  5184t+2086
+  /2  2592t+1043
+  3n+1  7776t+3130
+  /2  3888t+1565
+  3n+1  11664t+4696
+  /2  5832t+2348
+  /2  2916t+1174
+  /2  1458t+587
+  3n+1  4374t+1762
+  /2  2187t+881
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+881 and is not strictly below n for every n > 1.
+
+OPEN 415 mod 1024
+n = 1024t + 415
+  3n+1  3072t+1246
+  /2  1536t+623
+  3n+1  4608t+1870
+  /2  2304t+935
+  3n+1  6912t+2806
+  /2  3456t+1403
+  3n+1  10368t+4210
+  /2  5184t+2105
+  3n+1  15552t+6316
+  /2  7776t+3158
+  /2  3888t+1579
+  3n+1  11664t+4738
+  /2  5832t+2369
+  3n+1  17496t+7108
+  /2  8748t+3554
+  /2  4374t+1777
+  3n+1  13122t+5332
+  /2  6561t+2666
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+2666 and is not strictly below n for every n > 1.
+
+OPEN 447 mod 1024
+n = 1024t + 447
+  3n+1  3072t+1342
+  /2  1536t+671
+  3n+1  4608t+2014
+  /2  2304t+1007
+  3n+1  6912t+3022
+  /2  3456t+1511
+  3n+1  10368t+4534
+  /2  5184t+2267
+  3n+1  15552t+6802
+  /2  7776t+3401
+  3n+1  23328t+10204
+  /2  11664t+5102
+  /2  5832t+2551
+  3n+1  17496t+7654
+  /2  8748t+3827
+  3n+1  26244t+11482
+  /2  13122t+5741
+  3n+1  39366t+17224
+  /2  19683t+8612
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+8612 and is not strictly below n for every n > 1.
+
+OPEN 463 mod 1024
+n = 1024t + 463
+  3n+1  3072t+1390
+  /2  1536t+695
+  3n+1  4608t+2086
+  /2  2304t+1043
+  3n+1  6912t+3130
+  /2  3456t+1565
+  3n+1  10368t+4696
+  /2  5184t+2348
+  /2  2592t+1174
+  /2  1296t+587
+  3n+1  3888t+1762
+  /2  1944t+881
+  3n+1  5832t+2644
+  /2  2916t+1322
+  /2  1458t+661
+  3n+1  4374t+1984
+  /2  2187t+992
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+992 and is not strictly below n for every n > 1.
+
+OPEN 479 mod 1024
+n = 1024t + 479
+  3n+1  3072t+1438
+  /2  1536t+719
+  3n+1  4608t+2158
+  /2  2304t+1079
+  3n+1  6912t+3238
+  /2  3456t+1619
+  3n+1  10368t+4858
+  /2  5184t+2429
+  3n+1  15552t+7288
+  /2  7776t+3644
+  /2  3888t+1822
+  /2  1944t+911
+  3n+1  5832t+2734
+  /2  2916t+1367
+  3n+1  8748t+4102
+  /2  4374t+2051
+  3n+1  13122t+6154
+  /2  6561t+3077
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+3077 and is not strictly below n for every n > 1.
+
+OPEN 487 mod 1024
+n = 1024t + 487
+  3n+1  3072t+1462
+  /2  1536t+731
+  3n+1  4608t+2194
+  /2  2304t+1097
+  3n+1  6912t+3292
+  /2  3456t+1646
+  /2  1728t+823
+  3n+1  5184t+2470
+  /2  2592t+1235
+  3n+1  7776t+3706
+  /2  3888t+1853
+  3n+1  11664t+5560
+  /2  5832t+2780
+  /2  2916t+1390
+  /2  1458t+695
+  3n+1  4374t+2086
+  /2  2187t+1043
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1043 and is not strictly below n for every n > 1.
+
+OPEN 495 mod 1024
+n = 1024t + 495
+  3n+1  3072t+1486
+  /2  1536t+743
+  3n+1  4608t+2230
+  /2  2304t+1115
+  3n+1  6912t+3346
+  /2  3456t+1673
+  3n+1  10368t+5020
+  /2  5184t+2510
+  /2  2592t+1255
+  3n+1  7776t+3766
+  /2  3888t+1883
+  3n+1  11664t+5650
+  /2  5832t+2825
+  3n+1  17496t+8476
+  /2  8748t+4238
+  /2  4374t+2119
+  3n+1  13122t+6358
+  /2  6561t+3179
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+3179 and is not strictly below n for every n > 1.
+
+OPEN 511 mod 1024
+n = 1024t + 511
+  3n+1  3072t+1534
+  /2  1536t+767
+  3n+1  4608t+2302
+  /2  2304t+1151
+  3n+1  6912t+3454
+  /2  3456t+1727
+  3n+1  10368t+5182
+  /2  5184t+2591
+  3n+1  15552t+7774
+  /2  7776t+3887
+  3n+1  23328t+11662
+  /2  11664t+5831
+  3n+1  34992t+17494
+  /2  17496t+8747
+  3n+1  52488t+26242
+  /2  26244t+13121
+  3n+1  78732t+39364
+  /2  39366t+19682
+  /2  19683t+9841
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+9841 and is not strictly below n for every n > 1.
+
+OPEN 539 mod 1024
+n = 1024t + 539
+  3n+1  3072t+1618
+  /2  1536t+809
+  3n+1  4608t+2428
+  /2  2304t+1214
+  /2  1152t+607
+  3n+1  3456t+1822
+  /2  1728t+911
+  3n+1  5184t+2734
+  /2  2592t+1367
+  3n+1  7776t+4102
+  /2  3888t+2051
+  3n+1  11664t+6154
+  /2  5832t+3077
+  3n+1  17496t+9232
+  /2  8748t+4616
+  /2  4374t+2308
+  /2  2187t+1154
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1154 and is not strictly below n for every n > 1.
+
+OPEN 543 mod 1024
+n = 1024t + 543
+  3n+1  3072t+1630
+  /2  1536t+815
+  3n+1  4608t+2446
+  /2  2304t+1223
+  3n+1  6912t+3670
+  /2  3456t+1835
+  3n+1  10368t+5506
+  /2  5184t+2753
+  3n+1  15552t+8260
+  /2  7776t+4130
+  /2  3888t+2065
+  3n+1  11664t+6196
+  /2  5832t+3098
+  /2  2916t+1549
+  3n+1  8748t+4648
+  /2  4374t+2324
+  /2  2187t+1162
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1162 and is not strictly below n for every n > 1.
+
+OPEN 559 mod 1024
+n = 1024t + 559
+  3n+1  3072t+1678
+  /2  1536t+839
+  3n+1  4608t+2518
+  /2  2304t+1259
+  3n+1  6912t+3778
+  /2  3456t+1889
+  3n+1  10368t+5668
+  /2  5184t+2834
+  /2  2592t+1417
+  3n+1  7776t+4252
+  /2  3888t+2126
+  /2  1944t+1063
+  3n+1  5832t+3190
+  /2  2916t+1595
+  3n+1  8748t+4786
+  /2  4374t+2393
+  3n+1  13122t+7180
+  /2  6561t+3590
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+3590 and is not strictly below n for every n > 1.
+
+OPEN 603 mod 1024
+n = 1024t + 603
+  3n+1  3072t+1810
+  /2  1536t+905
+  3n+1  4608t+2716
+  /2  2304t+1358
+  /2  1152t+679
+  3n+1  3456t+2038
+  /2  1728t+1019
+  3n+1  5184t+3058
+  /2  2592t+1529
+  3n+1  7776t+4588
+  /2  3888t+2294
+  /2  1944t+1147
+  3n+1  5832t+3442
+  /2  2916t+1721
+  3n+1  8748t+5164
+  /2  4374t+2582
+  /2  2187t+1291
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1291 and is not strictly below n for every n > 1.
+
+OPEN 615 mod 1024
+n = 1024t + 615
+  3n+1  3072t+1846
+  /2  1536t+923
+  3n+1  4608t+2770
+  /2  2304t+1385
+  3n+1  6912t+4156
+  /2  3456t+2078
+  /2  1728t+1039
+  3n+1  5184t+3118
+  /2  2592t+1559
+  3n+1  7776t+4678
+  /2  3888t+2339
+  3n+1  11664t+7018
+  /2  5832t+3509
+  3n+1  17496t+10528
+  /2  8748t+5264
+  /2  4374t+2632
+  /2  2187t+1316
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1316 and is not strictly below n for every n > 1.
+
+OPEN 623 mod 1024
+n = 1024t + 623
+  3n+1  3072t+1870
+  /2  1536t+935
+  3n+1  4608t+2806
+  /2  2304t+1403
+  3n+1  6912t+4210
+  /2  3456t+2105
+  3n+1  10368t+6316
+  /2  5184t+3158
+  /2  2592t+1579
+  3n+1  7776t+4738
+  /2  3888t+2369
+  3n+1  11664t+7108
+  /2  5832t+3554
+  /2  2916t+1777
+  3n+1  8748t+5332
+  /2  4374t+2666
+  /2  2187t+1333
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1333 and is not strictly below n for every n > 1.
+
+OPEN 639 mod 1024
+n = 1024t + 639
+  3n+1  3072t+1918
+  /2  1536t+959
+  3n+1  4608t+2878
+  /2  2304t+1439
+  3n+1  6912t+4318
+  /2  3456t+2159
+  3n+1  10368t+6478
+  /2  5184t+3239
+  3n+1  15552t+9718
+  /2  7776t+4859
+  3n+1  23328t+14578
+  /2  11664t+7289
+  3n+1  34992t+21868
+  /2  17496t+10934
+  /2  8748t+5467
+  3n+1  26244t+16402
+  /2  13122t+8201
+  3n+1  39366t+24604
+  /2  19683t+12302
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+12302 and is not strictly below n for every n > 1.
+
+OPEN 667 mod 1024
+n = 1024t + 667
+  3n+1  3072t+2002
+  /2  1536t+1001
+  3n+1  4608t+3004
+  /2  2304t+1502
+  /2  1152t+751
+  3n+1  3456t+2254
+  /2  1728t+1127
+  3n+1  5184t+3382
+  /2  2592t+1691
+  3n+1  7776t+5074
+  /2  3888t+2537
+  3n+1  11664t+7612
+  /2  5832t+3806
+  /2  2916t+1903
+  3n+1  8748t+5710
+  /2  4374t+2855
+  3n+1  13122t+8566
+  /2  6561t+4283
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+4283 and is not strictly below n for every n > 1.
+
+OPEN 671 mod 1024
+n = 1024t + 671
+  3n+1  3072t+2014
+  /2  1536t+1007
+  3n+1  4608t+3022
+  /2  2304t+1511
+  3n+1  6912t+4534
+  /2  3456t+2267
+  3n+1  10368t+6802
+  /2  5184t+3401
+  3n+1  15552t+10204
+  /2  7776t+5102
+  /2  3888t+2551
+  3n+1  11664t+7654
+  /2  5832t+3827
+  3n+1  17496t+11482
+  /2  8748t+5741
+  3n+1  26244t+17224
+  /2  13122t+8612
+  /2  6561t+4306
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+4306 and is not strictly below n for every n > 1.
+
+OPEN 679 mod 1024
+n = 1024t + 679
+  3n+1  3072t+2038
+  /2  1536t+1019
+  3n+1  4608t+3058
+  /2  2304t+1529
+  3n+1  6912t+4588
+  /2  3456t+2294
+  /2  1728t+1147
+  3n+1  5184t+3442
+  /2  2592t+1721
+  3n+1  7776t+5164
+  /2  3888t+2582
+  /2  1944t+1291
+  3n+1  5832t+3874
+  /2  2916t+1937
+  3n+1  8748t+5812
+  /2  4374t+2906
+  /2  2187t+1453
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1453 and is not strictly below n for every n > 1.
+
+OPEN 703 mod 1024
+n = 1024t + 703
+  3n+1  3072t+2110
+  /2  1536t+1055
+  3n+1  4608t+3166
+  /2  2304t+1583
+  3n+1  6912t+4750
+  /2  3456t+2375
+  3n+1  10368t+7126
+  /2  5184t+3563
+  3n+1  15552t+10690
+  /2  7776t+5345
+  3n+1  23328t+16036
+  /2  11664t+8018
+  /2  5832t+4009
+  3n+1  17496t+12028
+  /2  8748t+6014
+  /2  4374t+3007
+  3n+1  13122t+9022
+  /2  6561t+4511
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+4511 and is not strictly below n for every n > 1.
+
+OPEN 719 mod 1024
+n = 1024t + 719
+  3n+1  3072t+2158
+  /2  1536t+1079
+  3n+1  4608t+3238
+  /2  2304t+1619
+  3n+1  6912t+4858
+  /2  3456t+2429
+  3n+1  10368t+7288
+  /2  5184t+3644
+  /2  2592t+1822
+  /2  1296t+911
+  3n+1  3888t+2734
+  /2  1944t+1367
+  3n+1  5832t+4102
+  /2  2916t+2051
+  3n+1  8748t+6154
+  /2  4374t+3077
+  3n+1  13122t+9232
+  /2  6561t+4616
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+4616 and is not strictly below n for every n > 1.
+
+OPEN 743 mod 1024
+n = 1024t + 743
+  3n+1  3072t+2230
+  /2  1536t+1115
+  3n+1  4608t+3346
+  /2  2304t+1673
+  3n+1  6912t+5020
+  /2  3456t+2510
+  /2  1728t+1255
+  3n+1  5184t+3766
+  /2  2592t+1883
+  3n+1  7776t+5650
+  /2  3888t+2825
+  3n+1  11664t+8476
+  /2  5832t+4238
+  /2  2916t+2119
+  3n+1  8748t+6358
+  /2  4374t+3179
+  3n+1  13122t+9538
+  /2  6561t+4769
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+4769 and is not strictly below n for every n > 1.
+
+OPEN 751 mod 1024
+n = 1024t + 751
+  3n+1  3072t+2254
+  /2  1536t+1127
+  3n+1  4608t+3382
+  /2  2304t+1691
+  3n+1  6912t+5074
+  /2  3456t+2537
+  3n+1  10368t+7612
+  /2  5184t+3806
+  /2  2592t+1903
+  3n+1  7776t+5710
+  /2  3888t+2855
+  3n+1  11664t+8566
+  /2  5832t+4283
+  3n+1  17496t+12850
+  /2  8748t+6425
+  3n+1  26244t+19276
+  /2  13122t+9638
+  /2  6561t+4819
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+4819 and is not strictly below n for every n > 1.
+
+OPEN 763 mod 1024
+n = 1024t + 763
+  3n+1  3072t+2290
+  /2  1536t+1145
+  3n+1  4608t+3436
+  /2  2304t+1718
+  /2  1152t+859
+  3n+1  3456t+2578
+  /2  1728t+1289
+  3n+1  5184t+3868
+  /2  2592t+1934
+  /2  1296t+967
+  3n+1  3888t+2902
+  /2  1944t+1451
+  3n+1  5832t+4354
+  /2  2916t+2177
+  3n+1  8748t+6532
+  /2  4374t+3266
+  /2  2187t+1633
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1633 and is not strictly below n for every n > 1.
+
+OPEN 767 mod 1024
+n = 1024t + 767
+  3n+1  3072t+2302
+  /2  1536t+1151
+  3n+1  4608t+3454
+  /2  2304t+1727
+  3n+1  6912t+5182
+  /2  3456t+2591
+  3n+1  10368t+7774
+  /2  5184t+3887
+  3n+1  15552t+11662
+  /2  7776t+5831
+  3n+1  23328t+17494
+  /2  11664t+8747
+  3n+1  34992t+26242
+  /2  17496t+13121
+  3n+1  52488t+39364
+  /2  26244t+19682
+  /2  13122t+9841
+  3n+1  39366t+29524
+  /2  19683t+14762
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+14762 and is not strictly below n for every n > 1.
+
+OPEN 795 mod 1024
+n = 1024t + 795
+  3n+1  3072t+2386
+  /2  1536t+1193
+  3n+1  4608t+3580
+  /2  2304t+1790
+  /2  1152t+895
+  3n+1  3456t+2686
+  /2  1728t+1343
+  3n+1  5184t+4030
+  /2  2592t+2015
+  3n+1  7776t+6046
+  /2  3888t+3023
+  3n+1  11664t+9070
+  /2  5832t+4535
+  3n+1  17496t+13606
+  /2  8748t+6803
+  3n+1  26244t+20410
+  /2  13122t+10205
+  3n+1  39366t+30616
+  /2  19683t+15308
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+15308 and is not strictly below n for every n > 1.
+
+OPEN 799 mod 1024
+n = 1024t + 799
+  3n+1  3072t+2398
+  /2  1536t+1199
+  3n+1  4608t+3598
+  /2  2304t+1799
+  3n+1  6912t+5398
+  /2  3456t+2699
+  3n+1  10368t+8098
+  /2  5184t+4049
+  3n+1  15552t+12148
+  /2  7776t+6074
+  /2  3888t+3037
+  3n+1  11664t+9112
+  /2  5832t+4556
+  /2  2916t+2278
+  /2  1458t+1139
+  3n+1  4374t+3418
+  /2  2187t+1709
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1709 and is not strictly below n for every n > 1.
+
+OPEN 831 mod 1024
+n = 1024t + 831
+  3n+1  3072t+2494
+  /2  1536t+1247
+  3n+1  4608t+3742
+  /2  2304t+1871
+  3n+1  6912t+5614
+  /2  3456t+2807
+  3n+1  10368t+8422
+  /2  5184t+4211
+  3n+1  15552t+12634
+  /2  7776t+6317
+  3n+1  23328t+18952
+  /2  11664t+9476
+  /2  5832t+4738
+  /2  2916t+2369
+  3n+1  8748t+7108
+  /2  4374t+3554
+  /2  2187t+1777
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1777 and is not strictly below n for every n > 1.
+
+OPEN 839 mod 1024
+n = 1024t + 839
+  3n+1  3072t+2518
+  /2  1536t+1259
+  3n+1  4608t+3778
+  /2  2304t+1889
+  3n+1  6912t+5668
+  /2  3456t+2834
+  /2  1728t+1417
+  3n+1  5184t+4252
+  /2  2592t+2126
+  /2  1296t+1063
+  3n+1  3888t+3190
+  /2  1944t+1595
+  3n+1  5832t+4786
+  /2  2916t+2393
+  3n+1  8748t+7180
+  /2  4374t+3590
+  /2  2187t+1795
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1795 and is not strictly below n for every n > 1.
+
+OPEN 859 mod 1024
+n = 1024t + 859
+  3n+1  3072t+2578
+  /2  1536t+1289
+  3n+1  4608t+3868
+  /2  2304t+1934
+  /2  1152t+967
+  3n+1  3456t+2902
+  /2  1728t+1451
+  3n+1  5184t+4354
+  /2  2592t+2177
+  3n+1  7776t+6532
+  /2  3888t+3266
+  /2  1944t+1633
+  3n+1  5832t+4900
+  /2  2916t+2450
+  /2  1458t+1225
+  3n+1  4374t+3676
+  /2  2187t+1838
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1838 and is not strictly below n for every n > 1.
+
+OPEN 871 mod 1024
+n = 1024t + 871
+  3n+1  3072t+2614
+  /2  1536t+1307
+  3n+1  4608t+3922
+  /2  2304t+1961
+  3n+1  6912t+5884
+  /2  3456t+2942
+  /2  1728t+1471
+  3n+1  5184t+4414
+  /2  2592t+2207
+  3n+1  7776t+6622
+  /2  3888t+3311
+  3n+1  11664t+9934
+  /2  5832t+4967
+  3n+1  17496t+14902
+  /2  8748t+7451
+  3n+1  26244t+22354
+  /2  13122t+11177
+  3n+1  39366t+33532
+  /2  19683t+16766
+Leading coefficient 19683 is odd, so the next parity depends on t. The shared prefix ends at 19683t+16766 and is not strictly below n for every n > 1.
+
+OPEN 879 mod 1024
+n = 1024t + 879
+  3n+1  3072t+2638
+  /2  1536t+1319
+  3n+1  4608t+3958
+  /2  2304t+1979
+  3n+1  6912t+5938
+  /2  3456t+2969
+  3n+1  10368t+8908
+  /2  5184t+4454
+  /2  2592t+2227
+  3n+1  7776t+6682
+  /2  3888t+3341
+  3n+1  11664t+10024
+  /2  5832t+5012
+  /2  2916t+2506
+  /2  1458t+1253
+  3n+1  4374t+3760
+  /2  2187t+1880
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1880 and is not strictly below n for every n > 1.
+
+OPEN 895 mod 1024
+n = 1024t + 895
+  3n+1  3072t+2686
+  /2  1536t+1343
+  3n+1  4608t+4030
+  /2  2304t+2015
+  3n+1  6912t+6046
+  /2  3456t+3023
+  3n+1  10368t+9070
+  /2  5184t+4535
+  3n+1  15552t+13606
+  /2  7776t+6803
+  3n+1  23328t+20410
+  /2  11664t+10205
+  3n+1  34992t+30616
+  /2  17496t+15308
+  /2  8748t+7654
+  /2  4374t+3827
+  3n+1  13122t+11482
+  /2  6561t+5741
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+5741 and is not strictly below n for every n > 1.
+
+OPEN 927 mod 1024
+n = 1024t + 927
+  3n+1  3072t+2782
+  /2  1536t+1391
+  3n+1  4608t+4174
+  /2  2304t+2087
+  3n+1  6912t+6262
+  /2  3456t+3131
+  3n+1  10368t+9394
+  /2  5184t+4697
+  3n+1  15552t+14092
+  /2  7776t+7046
+  /2  3888t+3523
+  3n+1  11664t+10570
+  /2  5832t+5285
+  3n+1  17496t+15856
+  /2  8748t+7928
+  /2  4374t+3964
+  /2  2187t+1982
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1982 and is not strictly below n for every n > 1.
+
+OPEN 935 mod 1024
+n = 1024t + 935
+  3n+1  3072t+2806
+  /2  1536t+1403
+  3n+1  4608t+4210
+  /2  2304t+2105
+  3n+1  6912t+6316
+  /2  3456t+3158
+  /2  1728t+1579
+  3n+1  5184t+4738
+  /2  2592t+2369
+  3n+1  7776t+7108
+  /2  3888t+3554
+  /2  1944t+1777
+  3n+1  5832t+5332
+  /2  2916t+2666
+  /2  1458t+1333
+  3n+1  4374t+4000
+  /2  2187t+2000
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+2000 and is not strictly below n for every n > 1.
+
+OPEN 959 mod 1024
+n = 1024t + 959
+  3n+1  3072t+2878
+  /2  1536t+1439
+  3n+1  4608t+4318
+  /2  2304t+2159
+  3n+1  6912t+6478
+  /2  3456t+3239
+  3n+1  10368t+9718
+  /2  5184t+4859
+  3n+1  15552t+14578
+  /2  7776t+7289
+  3n+1  23328t+21868
+  /2  11664t+10934
+  /2  5832t+5467
+  3n+1  17496t+16402
+  /2  8748t+8201
+  3n+1  26244t+24604
+  /2  13122t+12302
+  /2  6561t+6151
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+6151 and is not strictly below n for every n > 1.
+
+OPEN 991 mod 1024
+n = 1024t + 991
+  3n+1  3072t+2974
+  /2  1536t+1487
+  3n+1  4608t+4462
+  /2  2304t+2231
+  3n+1  6912t+6694
+  /2  3456t+3347
+  3n+1  10368t+10042
+  /2  5184t+5021
+  3n+1  15552t+15064
+  /2  7776t+7532
+  /2  3888t+3766
+  /2  1944t+1883
+  3n+1  5832t+5650
+  /2  2916t+2825
+  3n+1  8748t+8476
+  /2  4374t+4238
+  /2  2187t+2119
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+2119 and is not strictly below n for every n > 1.
+
+OPEN 1007 mod 1024
+n = 1024t + 1007
+  3n+1  3072t+3022
+  /2  1536t+1511
+  3n+1  4608t+4534
+  /2  2304t+2267
+  3n+1  6912t+6802
+  /2  3456t+3401
+  3n+1  10368t+10204
+  /2  5184t+5102
+  /2  2592t+2551
+  3n+1  7776t+7654
+  /2  3888t+3827
+  3n+1  11664t+11482
+  /2  5832t+5741
+  3n+1  17496t+17224
+  /2  8748t+8612
+  /2  4374t+4306
+  /2  2187t+2153
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+2153 and is not strictly below n for every n > 1.
+
+OPEN 1019 mod 1024
+n = 1024t + 1019
+  3n+1  3072t+3058
+  /2  1536t+1529
+  3n+1  4608t+4588
+  /2  2304t+2294
+  /2  1152t+1147
+  3n+1  3456t+3442
+  /2  1728t+1721
+  3n+1  5184t+5164
+  /2  2592t+2582
+  /2  1296t+1291
+  3n+1  3888t+3874
+  /2  1944t+1937
+  3n+1  5832t+5812
+  /2  2916t+2906
+  /2  1458t+1453
+  3n+1  4374t+4360
+  /2  2187t+2180
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+2180 and is not strictly below n for every n > 1.
+
+OPEN 1023 mod 1024
+n = 1024t + 1023
+  3n+1  3072t+3070
+  /2  1536t+1535
+  3n+1  4608t+4606
+  /2  2304t+2303
+  3n+1  6912t+6910
+  /2  3456t+3455
+  3n+1  10368t+10366
+  /2  5184t+5183
+  3n+1  15552t+15550
+  /2  7776t+7775
+  3n+1  23328t+23326
+  /2  11664t+11663
+  3n+1  34992t+34990
+  /2  17496t+17495
+  3n+1  52488t+52486
+  /2  26244t+26243
+  3n+1  78732t+78730
+  /2  39366t+39365
+  3n+1  118098t+118096
+  /2  59049t+59048
+Leading coefficient 59049 is odd, so the next parity depends on t. The shared prefix ends at 59049t+59048 and is not strictly below n for every n > 1.
+

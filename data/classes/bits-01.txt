@@ -1,0 +1,16 @@
+Modulus 2^1 = 2
+Proved 1/2 = 50% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 1
+
+SETTLED 0 mod 2
+n = 2t + 0
+  /2  t
+Every n = 2t + 0 > 1 has t >= 1. t < n for all such t because (2 - 1) * 1 > (0 - 0), that is 1 > 0.
+
+OPEN 1 mod 2
+n = 2t + 1
+  3n+1  6t+4
+  /2  3t+2
+Leading coefficient 3 is odd, so the next parity depends on t. The shared prefix ends at 3t+2 and is not strictly below n for every n > 1.
+

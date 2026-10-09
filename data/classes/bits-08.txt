@@ -1,0 +1,474 @@
+Modulus 2^8 = 256
+Proved 237/256 = 92.58% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 19
+
+SETTLED 39 mod 256
+n = 256t + 39
+  3n+1  768t+118
+  /2  384t+59
+  3n+1  1152t+178
+  /2  576t+89
+  3n+1  1728t+268
+  /2  864t+134
+  /2  432t+67
+  3n+1  1296t+202
+  /2  648t+101
+  3n+1  1944t+304
+  /2  972t+152
+  /2  486t+76
+  /2  243t+38
+Every n = 256t + 39 > 1 has t >= 0. 243t+38 < n for all such t because (256 - 243) * 0 > (38 - 39), that is 0 > -1.
+
+SETTLED 79 mod 256
+n = 256t + 79
+  3n+1  768t+238
+  /2  384t+119
+  3n+1  1152t+358
+  /2  576t+179
+  3n+1  1728t+538
+  /2  864t+269
+  3n+1  2592t+808
+  /2  1296t+404
+  /2  648t+202
+  /2  324t+101
+  3n+1  972t+304
+  /2  486t+152
+  /2  243t+76
+Every n = 256t + 79 > 1 has t >= 0. 243t+76 < n for all such t because (256 - 243) * 0 > (76 - 79), that is 0 > -3.
+
+SETTLED 95 mod 256
+n = 256t + 95
+  3n+1  768t+286
+  /2  384t+143
+  3n+1  1152t+430
+  /2  576t+215
+  3n+1  1728t+646
+  /2  864t+323
+  3n+1  2592t+970
+  /2  1296t+485
+  3n+1  3888t+1456
+  /2  1944t+728
+  /2  972t+364
+  /2  486t+182
+  /2  243t+91
+Every n = 256t + 95 > 1 has t >= 0. 243t+91 < n for all such t because (256 - 243) * 0 > (91 - 95), that is 0 > -4.
+
+SETTLED 123 mod 256
+n = 256t + 123
+  3n+1  768t+370
+  /2  384t+185
+  3n+1  1152t+556
+  /2  576t+278
+  /2  288t+139
+  3n+1  864t+418
+  /2  432t+209
+  3n+1  1296t+628
+  /2  648t+314
+  /2  324t+157
+  3n+1  972t+472
+  /2  486t+236
+  /2  243t+118
+Every n = 256t + 123 > 1 has t >= 0. 243t+118 < n for all such t because (256 - 243) * 0 > (118 - 123), that is 0 > -5.
+
+SETTLED 175 mod 256
+n = 256t + 175
+  3n+1  768t+526
+  /2  384t+263
+  3n+1  1152t+790
+  /2  576t+395
+  3n+1  1728t+1186
+  /2  864t+593
+  3n+1  2592t+1780
+  /2  1296t+890
+  /2  648t+445
+  3n+1  1944t+1336
+  /2  972t+668
+  /2  486t+334
+  /2  243t+167
+Every n = 256t + 175 > 1 has t >= 0. 243t+167 < n for all such t because (256 - 243) * 0 > (167 - 175), that is 0 > -8.
+
+SETTLED 199 mod 256
+n = 256t + 199
+  3n+1  768t+598
+  /2  384t+299
+  3n+1  1152t+898
+  /2  576t+449
+  3n+1  1728t+1348
+  /2  864t+674
+  /2  432t+337
+  3n+1  1296t+1012
+  /2  648t+506
+  /2  324t+253
+  3n+1  972t+760
+  /2  486t+380
+  /2  243t+190
+Every n = 256t + 199 > 1 has t >= 0. 243t+190 < n for all such t because (256 - 243) * 0 > (190 - 199), that is 0 > -9.
+
+SETTLED 219 mod 256
+n = 256t + 219
+  3n+1  768t+658
+  /2  384t+329
+  3n+1  1152t+988
+  /2  576t+494
+  /2  288t+247
+  3n+1  864t+742
+  /2  432t+371
+  3n+1  1296t+1114
+  /2  648t+557
+  3n+1  1944t+1672
+  /2  972t+836
+  /2  486t+418
+  /2  243t+209
+Every n = 256t + 219 > 1 has t >= 0. 243t+209 < n for all such t because (256 - 243) * 0 > (209 - 219), that is 0 > -10.
+
+OPEN 27 mod 256
+n = 256t + 27
+  3n+1  768t+82
+  /2  384t+41
+  3n+1  1152t+124
+  /2  576t+62
+  /2  288t+31
+  3n+1  864t+94
+  /2  432t+47
+  3n+1  1296t+142
+  /2  648t+71
+  3n+1  1944t+214
+  /2  972t+107
+  3n+1  2916t+322
+  /2  1458t+161
+  3n+1  4374t+484
+  /2  2187t+242
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+242 and is not strictly below n for every n > 1.
+
+OPEN 31 mod 256
+n = 256t + 31
+  3n+1  768t+94
+  /2  384t+47
+  3n+1  1152t+142
+  /2  576t+71
+  3n+1  1728t+214
+  /2  864t+107
+  3n+1  2592t+322
+  /2  1296t+161
+  3n+1  3888t+484
+  /2  1944t+242
+  /2  972t+121
+  3n+1  2916t+364
+  /2  1458t+182
+  /2  729t+91
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+91 and is not strictly below n for every n > 1.
+
+OPEN 47 mod 256
+n = 256t + 47
+  3n+1  768t+142
+  /2  384t+71
+  3n+1  1152t+214
+  /2  576t+107
+  3n+1  1728t+322
+  /2  864t+161
+  3n+1  2592t+484
+  /2  1296t+242
+  /2  648t+121
+  3n+1  1944t+364
+  /2  972t+182
+  /2  486t+91
+  3n+1  1458t+274
+  /2  729t+137
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+137 and is not strictly below n for every n > 1.
+
+OPEN 63 mod 256
+n = 256t + 63
+  3n+1  768t+190
+  /2  384t+95
+  3n+1  1152t+286
+  /2  576t+143
+  3n+1  1728t+430
+  /2  864t+215
+  3n+1  2592t+646
+  /2  1296t+323
+  3n+1  3888t+970
+  /2  1944t+485
+  3n+1  5832t+1456
+  /2  2916t+728
+  /2  1458t+364
+  /2  729t+182
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+182 and is not strictly below n for every n > 1.
+
+OPEN 71 mod 256
+n = 256t + 71
+  3n+1  768t+214
+  /2  384t+107
+  3n+1  1152t+322
+  /2  576t+161
+  3n+1  1728t+484
+  /2  864t+242
+  /2  432t+121
+  3n+1  1296t+364
+  /2  648t+182
+  /2  324t+91
+  3n+1  972t+274
+  /2  486t+137
+  3n+1  1458t+412
+  /2  729t+206
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+206 and is not strictly below n for every n > 1.
+
+OPEN 91 mod 256
+n = 256t + 91
+  3n+1  768t+274
+  /2  384t+137
+  3n+1  1152t+412
+  /2  576t+206
+  /2  288t+103
+  3n+1  864t+310
+  /2  432t+155
+  3n+1  1296t+466
+  /2  648t+233
+  3n+1  1944t+700
+  /2  972t+350
+  /2  486t+175
+  3n+1  1458t+526
+  /2  729t+263
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+263 and is not strictly below n for every n > 1.
+
+OPEN 103 mod 256
+n = 256t + 103
+  3n+1  768t+310
+  /2  384t+155
+  3n+1  1152t+466
+  /2  576t+233
+  3n+1  1728t+700
+  /2  864t+350
+  /2  432t+175
+  3n+1  1296t+526
+  /2  648t+263
+  3n+1  1944t+790
+  /2  972t+395
+  3n+1  2916t+1186
+  /2  1458t+593
+  3n+1  4374t+1780
+  /2  2187t+890
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+890 and is not strictly below n for every n > 1.
+
+OPEN 111 mod 256
+n = 256t + 111
+  3n+1  768t+334
+  /2  384t+167
+  3n+1  1152t+502
+  /2  576t+251
+  3n+1  1728t+754
+  /2  864t+377
+  3n+1  2592t+1132
+  /2  1296t+566
+  /2  648t+283
+  3n+1  1944t+850
+  /2  972t+425
+  3n+1  2916t+1276
+  /2  1458t+638
+  /2  729t+319
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+319 and is not strictly below n for every n > 1.
+
+OPEN 127 mod 256
+n = 256t + 127
+  3n+1  768t+382
+  /2  384t+191
+  3n+1  1152t+574
+  /2  576t+287
+  3n+1  1728t+862
+  /2  864t+431
+  3n+1  2592t+1294
+  /2  1296t+647
+  3n+1  3888t+1942
+  /2  1944t+971
+  3n+1  5832t+2914
+  /2  2916t+1457
+  3n+1  8748t+4372
+  /2  4374t+2186
+  /2  2187t+1093
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1093 and is not strictly below n for every n > 1.
+
+OPEN 155 mod 256
+n = 256t + 155
+  3n+1  768t+466
+  /2  384t+233
+  3n+1  1152t+700
+  /2  576t+350
+  /2  288t+175
+  3n+1  864t+526
+  /2  432t+263
+  3n+1  1296t+790
+  /2  648t+395
+  3n+1  1944t+1186
+  /2  972t+593
+  3n+1  2916t+1780
+  /2  1458t+890
+  /2  729t+445
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+445 and is not strictly below n for every n > 1.
+
+OPEN 159 mod 256
+n = 256t + 159
+  3n+1  768t+478
+  /2  384t+239
+  3n+1  1152t+718
+  /2  576t+359
+  3n+1  1728t+1078
+  /2  864t+539
+  3n+1  2592t+1618
+  /2  1296t+809
+  3n+1  3888t+2428
+  /2  1944t+1214
+  /2  972t+607
+  3n+1  2916t+1822
+  /2  1458t+911
+  3n+1  4374t+2734
+  /2  2187t+1367
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1367 and is not strictly below n for every n > 1.
+
+OPEN 167 mod 256
+n = 256t + 167
+  3n+1  768t+502
+  /2  384t+251
+  3n+1  1152t+754
+  /2  576t+377
+  3n+1  1728t+1132
+  /2  864t+566
+  /2  432t+283
+  3n+1  1296t+850
+  /2  648t+425
+  3n+1  1944t+1276
+  /2  972t+638
+  /2  486t+319
+  3n+1  1458t+958
+  /2  729t+479
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+479 and is not strictly below n for every n > 1.
+
+OPEN 191 mod 256
+n = 256t + 191
+  3n+1  768t+574
+  /2  384t+287
+  3n+1  1152t+862
+  /2  576t+431
+  3n+1  1728t+1294
+  /2  864t+647
+  3n+1  2592t+1942
+  /2  1296t+971
+  3n+1  3888t+2914
+  /2  1944t+1457
+  3n+1  5832t+4372
+  /2  2916t+2186
+  /2  1458t+1093
+  3n+1  4374t+3280
+  /2  2187t+1640
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+1640 and is not strictly below n for every n > 1.
+
+OPEN 207 mod 256
+n = 256t + 207
+  3n+1  768t+622
+  /2  384t+311
+  3n+1  1152t+934
+  /2  576t+467
+  3n+1  1728t+1402
+  /2  864t+701
+  3n+1  2592t+2104
+  /2  1296t+1052
+  /2  648t+526
+  /2  324t+263
+  3n+1  972t+790
+  /2  486t+395
+  3n+1  1458t+1186
+  /2  729t+593
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+593 and is not strictly below n for every n > 1.
+
+OPEN 223 mod 256
+n = 256t + 223
+  3n+1  768t+670
+  /2  384t+335
+  3n+1  1152t+1006
+  /2  576t+503
+  3n+1  1728t+1510
+  /2  864t+755
+  3n+1  2592t+2266
+  /2  1296t+1133
+  3n+1  3888t+3400
+  /2  1944t+1700
+  /2  972t+850
+  /2  486t+425
+  3n+1  1458t+1276
+  /2  729t+638
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+638 and is not strictly below n for every n > 1.
+
+OPEN 231 mod 256
+n = 256t + 231
+  3n+1  768t+694
+  /2  384t+347
+  3n+1  1152t+1042
+  /2  576t+521
+  3n+1  1728t+1564
+  /2  864t+782
+  /2  432t+391
+  3n+1  1296t+1174
+  /2  648t+587
+  3n+1  1944t+1762
+  /2  972t+881
+  3n+1  2916t+2644
+  /2  1458t+1322
+  /2  729t+661
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+661 and is not strictly below n for every n > 1.
+
+OPEN 239 mod 256
+n = 256t + 239
+  3n+1  768t+718
+  /2  384t+359
+  3n+1  1152t+1078
+  /2  576t+539
+  3n+1  1728t+1618
+  /2  864t+809
+  3n+1  2592t+2428
+  /2  1296t+1214
+  /2  648t+607
+  3n+1  1944t+1822
+  /2  972t+911
+  3n+1  2916t+2734
+  /2  1458t+1367
+  3n+1  4374t+4102
+  /2  2187t+2051
+Leading coefficient 2187 is odd, so the next parity depends on t. The shared prefix ends at 2187t+2051 and is not strictly below n for every n > 1.
+
+OPEN 251 mod 256
+n = 256t + 251
+  3n+1  768t+754
+  /2  384t+377
+  3n+1  1152t+1132
+  /2  576t+566
+  /2  288t+283
+  3n+1  864t+850
+  /2  432t+425
+  3n+1  1296t+1276
+  /2  648t+638
+  /2  324t+319
+  3n+1  972t+958
+  /2  486t+479
+  3n+1  1458t+1438
+  /2  729t+719
+Leading coefficient 729 is odd, so the next parity depends on t. The shared prefix ends at 729t+719 and is not strictly below n for every n > 1.
+
+OPEN 255 mod 256
+n = 256t + 255
+  3n+1  768t+766
+  /2  384t+383
+  3n+1  1152t+1150
+  /2  576t+575
+  3n+1  1728t+1726
+  /2  864t+863
+  3n+1  2592t+2590
+  /2  1296t+1295
+  3n+1  3888t+3886
+  /2  1944t+1943
+  3n+1  5832t+5830
+  /2  2916t+2915
+  3n+1  8748t+8746
+  /2  4374t+4373
+  3n+1  13122t+13120
+  /2  6561t+6560
+Leading coefficient 6561 is odd, so the next parity depends on t. The shared prefix ends at 6561t+6560 and is not strictly below n for every n > 1.
+

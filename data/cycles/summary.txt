@@ -1,0 +1,28 @@
+The run searched accelerated cycles of length 1 through 20.
+Computed by one JVM on Apple M4 Pro, 14 cores, 48 GB of memory, heap 12 GB of memory, one core, in 41.854 s.
+The process peaked at 726 MiB of memory.
+This file is 1103 B of storage.
+
+Accelerated cycles. Length is the number of steps (3x+1)/2^k.
+x = 1, k = 2 is the cycle 1 -> 4 -> 2 -> 1. No length in this log has another positive integer solution.
+
+length 1: no x > 1
+length 2: no x > 1
+length 3: no x > 1 (6 branches)
+length 4: no x > 1 (10 branches)
+length 5: no x > 1 (34 branches)
+length 6: no x > 1 (63 branches)
+length 7: no x > 1 (158 branches)
+length 8: no x > 1 (581 branches)
+length 9: no x > 1 (1315 branches)
+length 10: no x > 1 (4163 branches)
+length 11: no x > 1 (9198 branches)
+length 12: no x > 1 (25021 branches)
+length 13: no x > 1 (87835 branches)
+length 14: no x > 1 (213171 branches)
+length 15: no x > 1 (665585 branches)
+length 16: no x > 1 (1551579 branches)
+length 17: no x > 1 (4637505 branches)
+length 18: no x > 1 (10699454 branches)
+length 19: no x > 1 (29468891 branches)
+length 20: no x > 1 (99110018 branches)

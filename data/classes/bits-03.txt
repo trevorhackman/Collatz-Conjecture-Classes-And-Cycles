@@ -1,0 +1,26 @@
+Modulus 2^3 = 8
+Proved 6/8 = 75% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 2
+
+No class settled at this modulus.
+
+OPEN 3 mod 8
+n = 8t + 3
+  3n+1  24t+10
+  /2  12t+5
+  3n+1  36t+16
+  /2  18t+8
+  /2  9t+4
+Leading coefficient 9 is odd, so the next parity depends on t. The shared prefix ends at 9t+4 and is not strictly below n for every n > 1.
+
+OPEN 7 mod 8
+n = 8t + 7
+  3n+1  24t+22
+  /2  12t+11
+  3n+1  36t+34
+  /2  18t+17
+  3n+1  54t+52
+  /2  27t+26
+Leading coefficient 27 is odd, so the next parity depends on t. The shared prefix ends at 27t+26 and is not strictly below n for every n > 1.
+

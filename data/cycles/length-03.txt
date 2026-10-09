@@ -1,0 +1,17 @@
+Length 3
+(3((3((3x+1)/2^k1)+1)/2^k2)+1)/2^k3 = x
+x = (3^2 + 3·2^k1 + 2^{k1+···+k2}) / (2^{k1+···+k3} - 3^3)
+The least odd member x > 1 has first exponent 1: any larger power of 2 sends (3x+1)/2^k below x.
+Later, exponent k at step j satisfies k < j*(log2(3)-1)+2, checked as 2^{k+j-2} < 3^j.
+Maximum k at steps 0..2: 1 2 3
+The total K = k1+...+k3 must satisfy 2^K > 3^3, i.e. K >= ceil(3 log2(3)). A prefix that cannot reach that total, even at the maximum legal later exponents, is rejected once.
+A rejected prefix rules out every continuation. SOLUTION would be an odd cycle with x > 1.
+x<=C < L: staying at or above the minimum forces x <= C, below the lower bound L.
+
+k=1,1,3 | x<=3 < 7
+k=1,2,2 | x<=4 < 11
+k=1,2,3 | x<=0 < 11
+
+Branches examined: 6
+Solutions with x > 1: 0
+No whole number x > 1. The first exponent is 1, and the other 2 exponents were checked across 6 tuples. x = 1 with every exponent equal to 2 only repeats the known cycle.

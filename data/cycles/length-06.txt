@@ -1,0 +1,53 @@
+Length 6
+(3((3((3((3((3((3x+1)/2^k1)+1)/2^k2)+1)/2^k3)+1)/2^k4)+1)/2^k5)+1)/2^k6 = x
+x = (3^5 + 3^4·2^k1 + 3^3·2^{k1+···+k2} + 3^2·2^{k1+···+k3} + 3·2^{k1+···+k4} + 2^{k1+···+k5}) / (2^{k1+···+k6} - 3^6)
+The least odd member x > 1 has first exponent 1: any larger power of 2 sends (3x+1)/2^k below x.
+Later, exponent k at step j satisfies k < j*(log2(3)-1)+2, checked as 2^{k+j-2} < 3^j.
+Maximum k at steps 0..5: 1 2 3 3 4 4
+The total K = k1+...+k6 must satisfy 2^K > 3^6, i.e. K >= ceil(6 log2(3)). A prefix that cannot reach that total, even at the maximum legal later exponents, is rejected once.
+A rejected prefix rules out every continuation. SOLUTION would be an odd cycle with x > 1.
+x<=C < L: staying at or above the minimum forces x <= C, below the lower bound L.
+
+k=1,1,1,1,2,4 | x<=2 < 31
+k=1,1,1,1,3,3 | x<=2 < 223
+k=1,1,1,1,3,4 | x<=0 < 223
+k=1,1,1,1,4 | x<=16 < 31
+k=1,1,1,2,1,4 | x<=2 < 111
+k=1,1,1,2,2,3 | x<=2 < 47
+k=1,1,1,2,2,4 | x<=0 < 47
+k=1,1,1,2,3 | x<=17 < 47
+k=1,1,1,2,4 | x<=0 < 47
+k=1,1,1,3,1,3 | x<=3 < 207
+k=1,1,1,3,1,4 | x<=0 < 207
+k=1,1,1,3,2 | x<=19 < 79
+k=1,1,1,3,3 | x<=0 < 79
+k=1,1,1,3,4 | x<=0 < 79
+k=1,1,2,1,1,4 | x<=2 < 103
+k=1,1,2,1,2,3 | x<=2 < 167
+k=1,1,2,1,2,4 | x<=0 < 167
+k=1,1,2,1,3 | x<=19 < 39
+k=1,1,2,1,4 | x<=0 < 39
+k=1,1,2,2,1,3 | x<=3 < 71
+k=1,1,2,2,1,4 | x<=0 < 71
+k=1,1,2,2,2 | x<=21 < 71
+k=1,1,2,2,3 | x<=1 < 71
+k=1,1,2,2,4 | x<=0 < 71
+k=1,1,2,3 | x<=1 < 7
+k=1,1,3 | x<=3 < 7
+k=1,2,1,1,1,4 | x<=3 < 27
+k=1,2,1,1,2,3 | x<=3 < 91
+k=1,2,1,1,2,4 | x<=0 < 91
+k=1,2,1,1,3 | x<=22 < 27
+k=1,2,1,1,4 | x<=1 < 27
+k=1,2,1,2,1,3 | x<=3 < 251
+k=1,2,1,2,1,4 | x<=0 < 251
+k=1,2,1,2,2 | x<=24 < 123
+k=1,2,1,2,3 | x<=1 < 123
+k=1,2,1,2,4 | x<=0 < 123
+k=1,2,1,3 | x<=1 < 27
+k=1,2,2 | x<=4 < 11
+k=1,2,3 | x<=0 < 11
+
+Branches examined: 63
+Solutions with x > 1: 0
+No whole number x > 1. The first exponent is 1, and the other 5 exponents were checked across 63 tuples. x = 1 with every exponent equal to 2 only repeats the known cycle.

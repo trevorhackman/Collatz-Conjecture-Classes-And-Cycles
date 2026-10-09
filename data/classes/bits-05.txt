@@ -1,0 +1,82 @@
+Modulus 2^5 = 32
+Proved 28/32 = 87.5% of positive integers.
+Only the two children of each class still open at the previous modulus are examined here. Every other residue is covered by a coarser proof.
+Still open: 4
+
+SETTLED 11 mod 32
+n = 32t + 11
+  3n+1  96t+34
+  /2  48t+17
+  3n+1  144t+52
+  /2  72t+26
+  /2  36t+13
+  3n+1  108t+40
+  /2  54t+20
+  /2  27t+10
+Every n = 32t + 11 > 1 has t >= 0. 27t+10 < n for all such t because (32 - 27) * 0 > (10 - 11), that is 0 > -1.
+
+SETTLED 23 mod 32
+n = 32t + 23
+  3n+1  96t+70
+  /2  48t+35
+  3n+1  144t+106
+  /2  72t+53
+  3n+1  216t+160
+  /2  108t+80
+  /2  54t+40
+  /2  27t+20
+Every n = 32t + 23 > 1 has t >= 0. 27t+20 < n for all such t because (32 - 27) * 0 > (20 - 23), that is 0 > -3.
+
+OPEN 7 mod 32
+n = 32t + 7
+  3n+1  96t+22
+  /2  48t+11
+  3n+1  144t+34
+  /2  72t+17
+  3n+1  216t+52
+  /2  108t+26
+  /2  54t+13
+  3n+1  162t+40
+  /2  81t+20
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+20 and is not strictly below n for every n > 1.
+
+OPEN 15 mod 32
+n = 32t + 15
+  3n+1  96t+46
+  /2  48t+23
+  3n+1  144t+70
+  /2  72t+35
+  3n+1  216t+106
+  /2  108t+53
+  3n+1  324t+160
+  /2  162t+80
+  /2  81t+40
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+40 and is not strictly below n for every n > 1.
+
+OPEN 27 mod 32
+n = 32t + 27
+  3n+1  96t+82
+  /2  48t+41
+  3n+1  144t+124
+  /2  72t+62
+  /2  36t+31
+  3n+1  108t+94
+  /2  54t+47
+  3n+1  162t+142
+  /2  81t+71
+Leading coefficient 81 is odd, so the next parity depends on t. The shared prefix ends at 81t+71 and is not strictly below n for every n > 1.
+
+OPEN 31 mod 32
+n = 32t + 31
+  3n+1  96t+94
+  /2  48t+47
+  3n+1  144t+142
+  /2  72t+71
+  3n+1  216t+214
+  /2  108t+107
+  3n+1  324t+322
+  /2  162t+161
+  3n+1  486t+484
+  /2  243t+242
+Leading coefficient 243 is odd, so the next parity depends on t. The shared prefix ends at 243t+242 and is not strictly below n for every n > 1.
+
